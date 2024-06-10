@@ -1,0 +1,6 @@
+search Lambda --> functions --> create function --> enter function name - lambda_api_website_creation_post (any random ) --> Runtime - Python 3.8 --> execution role - select your role --> create function
+
+
+after creating function need to some tasks as well - 
+
+add code to the function

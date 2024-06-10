@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+steps for website creation :
+
+1. create s3 bucket
+	create 2 S3 bucket
+2. create SNS - 8:39AM
+SNS - Simple Notification Service
+
+3. create dynamoDB table - 8:40AM
+
+4. create IAM role - 8:41AM
+
+5. create lambda 8:42AM
+create 3 lambda Istances
+add code to the lambda table

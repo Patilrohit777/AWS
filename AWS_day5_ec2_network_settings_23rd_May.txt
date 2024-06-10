@@ -1,0 +1,96 @@
+IPs in AWS
+port number 22 - ssh
+port number 80 - http
+
+IPV4 - 0.0.0.0/0
+IPV6 - ::/0
+
+general Notation - 443.0.0.0.0/0
+
+443 - https://
+22 - ssh keys
+
+
+10.12.12.12/16
+
+
+10         .12         .12           .12        /16
+(0-255)    (0-255)     (0-255)       (0-255)
+
+octats                 subnetmask
+
+
+VPC - Virtual Private clound
+
+
+octats
+subnetmask - { /16 , /24, /32 }
+
+
+why dont we consider /29 if 29 = 8 -5 = 3
+
+
+to do - study of IPV4??
+
+configuration storage
+
+types of accesses in IAM.
+
+
+TCP - transfer control protocol
+
+wizard23
+
+
+download puttygen.exe
+
+load -> .pass .pem key -> open -> save -> save private key -> give name
+
+
+
+login to putty server - 9:05
+
+ec2-user - default user to putty
+
+ec2-user elevate command - sudo su
+
+
+
+create IAM user - 9:23AM
+
+
+If we want to access other service from one service. We have two ways.
+1. assigning role
+2. by passing access key of IAM security acccess credentials 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

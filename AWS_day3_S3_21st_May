@@ -1,0 +1,64 @@
+S3
+
+Features
+
+
+
+
+Create Bucket - 
+
+go to s3 --> create bucket --> bucket type --> general/purpose --> bucket_name (lower case) --> untick block all public access --> tick on acknowledge --> show versions enable/disable --> Default encryption --> Advance Settings
+
+storage classes - 
+
+low latency = high speed
+
+bucket name convictions -
+	- must be in lower case
+	- It should unique across the global
+
+
+ACL - access control list 
+
+
+delete marker --> 
+
+
+KMS - Key Managament service
+
+ARN - Amazon Resourse Name
+
+DSSE - Dual Layer server side Encryption
+
+ACL - Access Control List
+
+
+
+Storage Classes: 
+	-> S3 Express One Zone
+	-> Standard
+	-> Intelligent tiering
+	-> Standard IA 
+	-> One zone - IA
+	-> Glacier Instant retrieval
+	-> Glacier flexible retrieval
+	-> Glacier Deep Archive
+	-> Reduced Redundancy
+	
+	
+Set Storage Classes Rules : 
+
+
+
+Event Notification
+
+
+Access provided to bucket while creating it.
+	-> Bucket and objects are not public
+	-> public
+	-> Can bu Plublic
+	
+Define a Policy on a bucket
+
+
+CORS - Cross original resourse Sharing

@@ -1,0 +1,181 @@
+with out any web server we can resolve our application to the browser
+
+
+create a main bucket - 21may2024mainbucket
+
+
+time - 8:15
+
+
+yum longi form - 
+
+
+sudo su - 
+yum update -y
+yum install httpd -y
+
+service httpd start
+
+chkconfig httpd on
+cd /var/www/html
+ls -lart - 
+
+
+time - 8:25AM
+
+download css project
+
+
+time 8:27 - s3 url explaination
+
+
+time 8:29AM - assign role through instancce security 
+
+aws s3 cp ${path}
+unzip file
+ls
+
+8:36 - index.html file should be at main folder
+
+8:38 - deploying a website with an instance
+
+how to add name to the website
+
+8:41 - windows and linux
+
+8:42 - linux commands
+
+-a all
+-f file
+to hide some file start file name with dot (.)
+ls -a - to show all object including hidden file
+ls -al - gives additional information
+. current directory
+.. there is an directory before pwd
+d - its a directory
+- (hypen) - its a file
+mkdir - make directory
+cd change directory
+pwd check current directory
+cd .. to go to previous directory
+cd ../.. to go to double directory
+cd -(hypen) to go to last directory
+create file with touch, cat , vi
+touch file_name - create empty files and cant do operations on the file
+cat - creates file and reads file as well
+cat > file_name - can create file and edit it
+cat file_name - reads the file
+> override the existing data
+>> append to the existing data
+to go outside file - add ctrl + c in the next line
+
+
+
+
+vi file_name - 
+vi editor works in modes - means we have to change mode from read to write and write to read
+to write enter (insert mode) = i
+escape mode - enter escape
+q - quiet without saving
+q! - force fully quiet
+wq- write and quiet
+! - to operation forcefully
+chmod
+echo = print statement
+date - gives date
+
+
+9:20AM
+
+1. no datatypes in linux
+
+
+create variable - 
+name=rohit
+call variable with ${variable_name}
+
+
+
+
+
+
+
+
+drwxr-xr-x 3 ec2-user ec2-user 74 may 24 2:46 
+74 - size of the file
+
+r - read
+w - write
+x - execute
+
+
+rwxr-xr-x - to know about this access/permissions
+total 9 values in set of 3 * 3 rwx rwx r-x
+
+rwx         rwx            r-x
+owner       group 			others
+
+rwx - owners permissions
+rwx - group 
+r-x  -others
+
+
+
+binary number - 8:54AM
+
+4  read   
+2  write
+1  execute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

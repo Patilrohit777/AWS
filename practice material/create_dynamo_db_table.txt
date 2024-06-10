@@ -1,0 +1,3 @@
+
+
+search dynamoDB -- > create table --> enter table name - website_creation_lambda_api --> partition key - id (any random) 
