@@ -1,0 +1,42 @@
+
+
+
+bucket_name="bucketname2323"
+data_file_name="user_name_poilicy_arm"
+
+# removes/deletes existing bucket
+#aws s3 rb s3://${bucket_name}
+
+#creates new bucket
+#aws s3 mb s3://${bucket_name}
+
+
+#uploads all the files inside the folder
+aws s3 sync "data" s3://${bucket_name}
+
+
+#wget s3://bucketname2323/${data_file_name}.txt .
+
+aws s3 cp s3://bucketname2323/${data_file_name}.txt ${data_file_name}.txt
+
+for user_details in `cat ${data_file_name}.txt`; do
+	echo $user_details
+    user_name=`echo ${user_details}|cut -d"," -f1`
+    user_arn=`echo ${user_details} | cut -d"," -f2`
+    
+	aws iam create-user \
+    --user-name ${user_name}_5
+	aws iam attach-user-policy \
+	--user-name ${user_name}_5 \
+	--policy-arn arn:aws:iam::992382394692:policy/policy_for_lambda_apa_wabsite
+	
+	
+	
+	
+	#--permissions-boundary arn:aws:iam::992382394692:policy/policy_for_lambda_apa_wabsite
+    echo "========= ${user_name} ++++++++ ${user_arn}. "
+done
+
+
+#aws iam create-user \
+#    --user-name Bob

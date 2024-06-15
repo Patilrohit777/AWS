@@ -1,0 +1,3 @@
+user_1,arn:aws:iam::992382394692:policy/policy_for_lambda_apa_wabsite
+user_2,arn:aws:iam::992382394692:policy/policy_for_lambda_apa_wabsite
+user_3,arn:aws:iam::992382394692:policy/policy_for_lambda_apa_wabsite
