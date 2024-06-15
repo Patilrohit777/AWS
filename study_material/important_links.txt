@@ -1,0 +1,1 @@
+AWS cli commands reference - https://docs.aws.amazon.com/cli/latest/reference/
