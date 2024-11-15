@@ -1,20 +1,18 @@
-sudo yum update -y
+#sudo yum update -y
 
 sudo yum install docker -y
 
-docker --version
+#docker --version
 
 sudo systemctl start docker
 
 sudo -i
 
-yum update
+#yum update
 
-yum --version
+#yum --version
 
 docker run hello-world
-
-
 
 which docker
 

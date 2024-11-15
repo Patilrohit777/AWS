@@ -1,15 +1,13 @@
 import boto3
 from datetime import datetime
 import pytz
-
 from datetime import datetime
 from dateutil import parser
 
 
 # Initialize a session using Amazon IAM
+# client = boto3.client('service_name_where_you_want_to_work')
 client = boto3.client('iam')
-
-
 
 def get_access_key_details(access_key_id):
     try:

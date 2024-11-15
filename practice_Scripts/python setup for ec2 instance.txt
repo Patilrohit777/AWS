@@ -1,0 +1,11 @@
+#python3 file_name
+
+
+#first install pip
+sudo yum install python3-pip
+
+#install pip
+pip install boto3
+
+
+sudo apt update
